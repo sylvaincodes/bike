@@ -1,9 +1,10 @@
-# Liens du projets 
+![Screenshot](https://github.com/sylvaincodes/bike/blob/main/public/images/hero-bike.svg)
 
-- Demo : 
+# Liens du projets
 
-- Github : 
+- Demo :
 
+- Github :
 
 # Etapes de développement
 
@@ -14,4 +15,3 @@
 - Configuration seo
 - Configuration Layout
 - Création des composants
-
