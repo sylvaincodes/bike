@@ -1,4 +1,4 @@
-![Screenshot](https://github.com/sylvaincodes/bike/blob/main/public/images/hero-bike.svg)
+![Screenshot](https://github.com/sylvaincodes/bike/blob/main/public/images/og.jpg)
 
 # Liens du projets
 
