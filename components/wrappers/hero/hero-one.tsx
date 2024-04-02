@@ -26,19 +26,19 @@ export const HeroOne = () => {
             width="50" height="50" alt="hero-bike" />
             <div className="absolute bottom-0 w-full">
               <div className="grid grid-cols-4 rounded-[80px] bg-bg_hero text-white w-full 
-              px-8 py-2 text-center opacity-60">
+              px-8 py-2 text-center opacity-60 capitalize">
                   <div className="flex flex-col gap-4">
                       <span className="text-[36px] font-medium">750 W</span>
                       <span className="text-base font-medium">motor</span>
                   </div><div className="flex flex-col gap-4">
-                      <span className="text-[36px] font-medium">750 W</span>
-                      <span className="text-base font-medium">motor</span>
+                      <span className="text-[36px] font-medium">3 Hours</span>
+                      <span className="text-base font-medium">charging time</span>
                   </div><div className="flex flex-col gap-4">
-                      <span className="text-[36px] font-medium">750 W</span>
-                      <span className="text-base font-medium">motor</span>
+                      <span className="text-[36px] font-medium">25mph</span>
+                      <span className="text-base font-medium">per hour</span>
                   </div><div className="flex flex-col gap-4">
-                      <span className="text-[36px] font-medium">750 W</span>
-                      <span className="text-base font-medium">motor</span>
+                      <span className="text-[36px] font-medium">48V</span>
+                      <span className="text-base font-medium">battery</span>
                   </div>
               </div>
             </div>
