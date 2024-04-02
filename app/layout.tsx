@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { inter, interLocal } from "./fonts";
+import { inter } from "./fonts";
 import { mergeOpenGraph } from "@/lib/mergeOpenGraph";
 import { Providers } from "@/providers";
 import { cn } from "@/lib/utils";
@@ -59,7 +59,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={cn('animate-loading-transition',interLocal.className)} >
+      <body className={cn('animate-loading-transition',inter.className)} >
         <Providers>
           {children}
         </Providers>  

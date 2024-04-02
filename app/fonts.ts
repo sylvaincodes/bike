@@ -5,6 +5,6 @@ import localFont from "next/font/local"
 export const inter = Inter({ subsets: ["latin"] });
 
 // Inter fonts local
-export const interLocal = localFont({
-    src: "../public/fonts/inter/inter.ttf"
-})
+// export const interLocal = localFont({
+//     src: "../public/fonts/inter/inter.ttf"
+// })
