@@ -6,5 +6,5 @@ export const inter = Inter({ subsets: ["latin"] });
 
 // Inter fonts local
 export const interLocal = localFont({
-    src: "../public/fonts/inter/Inter-VariableFont_slnt,wght.ttf"
+    src: "../public/fonts/inter/inter.ttf"
 })
