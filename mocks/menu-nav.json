@@ -1,0 +1,21 @@
+[   
+{
+    "label":"home",
+    "link":"/"
+},{
+    "label":"about us",
+    "link":"/about"
+},{
+    "label":"contact us",
+    "link":"/contact-us"
+},{
+    "label":"how it Works",
+    "link":"/how-it-works"
+},{
+    "label":"help",
+    "link":"/help"
+},{
+    "label":"hire Bike",
+    "link":"/hire-bike"
+}
+]
