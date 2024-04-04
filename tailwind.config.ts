@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss"
+import  colors  from 'tailwindcss/colors'
 
 const config = {
   darkMode: ["class"],
@@ -57,9 +58,21 @@ const config = {
       },
     },
     colors:{
+
+      // default colors 
+      transparent: 'transparent',
+      current: 'currentColor',
+      gray: colors.gray,
+      black: '#121212',
+      white: colors.white,
+      emerald: colors.emerald,
+      indigo: colors.indigo,
+      yellow: colors.yellow,
+      slate: colors.slate,
+      blue: colors.blue,
+
+
       primary_color: '#00B9D4',
-      white:'#FFFFFF',
-      black: '#000000',
       btn: '#009EB5',
       bg_hero: '#314D50',
       bg_body:'#243034',
