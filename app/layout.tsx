@@ -33,9 +33,9 @@ export const metadata: Metadata = {
   manifest: `  ${process.env.NEXT_PUBLIC_SERVER_URL}/manifest.json`,
 
   icons:{
-    icon:'logo_light.svg',
-    shortcut:'logo_light.svg',
-    apple:'logo_light.svg'
+    icon:'/favicon.ico',
+    shortcut:'/favicon.ico',
+    apple:'/favicon.ico'
   },
 
   twitter:{
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     description: 'Buy a beautiful bike you need for your travel',
     siteId:'',
     creator:'sylvaincodes',
-    images:[` ${process.env.NEXT_PUBLIC_SERVER_URL}/og.jpg `]
+    images:[` ${process.env.NEXT_PUBLIC_SERVER_URL}/images/og.jpg`]
   },
 
 

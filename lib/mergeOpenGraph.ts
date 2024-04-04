@@ -7,7 +7,7 @@ const defaultOpenGraph: Metadata['openGraph'] = {
     description: 'Plateforme de vente de Bike en ligne',
     images:[
         {
-            url:`${process.env.NEXT_PUBLIC_SERVER_URL}/og.jpg` 
+            url:`${process.env.NEXT_PUBLIC_SERVER_URL}/images/og.jpg` 
         }
     ],
     type: 'website',
