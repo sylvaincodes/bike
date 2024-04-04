@@ -4,10 +4,10 @@ import type { Metadata } from "next";
 
 const defaultOpenGraph: Metadata['openGraph'] = {
     title: 'Bike shop',
-    description: 'Plateforme de vente de Bike',
+    description: 'Plateforme de vente de Bike en ligne',
     images:[
         {
-            url:`${process.env.NEXT_PUBLIC_SERVER_URL}/images/og.jpg` 
+            url:`${process.env.NEXT_PUBLIC_SERVER_URL}/og.jpg` 
         }
     ],
     type: 'website',

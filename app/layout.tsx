@@ -33,15 +33,15 @@ export const metadata: Metadata = {
   manifest: `  ${process.env.NEXT_PUBLIC_SERVER_URL}/manifest.json`,
 
   icons:{
-    icon:'/logo/logo_light.svg',
-    shortcut:'/logo/logo_light.svg',
-    apple:'favicon.ico'
+    icon:'logo_light.svg',
+    shortcut:'logo_light.svg',
+    apple:'logo_light.svg'
   },
 
   twitter:{
     card:'summary_large_image',
     title: 'Bike shop',
-    description: 'Bike shop ecommerce',
+    description: 'Buy a beautiful bike you need for your travel',
     siteId:'',
     creator:'sylvaincodes',
     images:[` ${process.env.NEXT_PUBLIC_SERVER_URL}/og.jpg `]
