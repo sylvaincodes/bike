@@ -2,6 +2,8 @@ import { Container } from '@/components/ui/container'
 import { Grid } from '@/components/ui/grid'
 import React from 'react'
 import {Loader} from 'next-animation'
+import { mergeOpenGraph } from '@/lib/mergeOpenGraph'
+import { Metadata } from 'next'
 
 export default function Page() {
   return (
@@ -36,4 +38,14 @@ export default function Page() {
       </Container> 
     </section>
   )
+}
+
+
+export const metadata: Metadata = {
+  title: 'Loading page',
+  description: 'A loading simple component with Loader',
+  openGraph: mergeOpenGraph({
+    title: 'Loading page',
+    url: '/',
+  }),
 }

@@ -38,14 +38,14 @@ export const metadata: Metadata = {
     apple:'favicon.ico'
   },
 
-twitter:{
-  card:'summary_large_image',
-  title: 'Bike shop',
-  description: 'Bike shop ecommerce',
-  siteId:'',
-  creator:'sylvaincodes',
-  images:[` ${process.env.NEXT_PUBLIC_SERVER_URL}/og.jpg `]
-},
+  twitter:{
+    card:'summary_large_image',
+    title: 'Bike shop',
+    description: 'Bike shop ecommerce',
+    siteId:'',
+    creator:'sylvaincodes',
+    images:[` ${process.env.NEXT_PUBLIC_SERVER_URL}/og.jpg `]
+  },
 
 
 openGraph: mergeOpenGraph()
